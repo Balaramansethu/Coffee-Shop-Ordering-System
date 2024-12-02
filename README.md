@@ -1,24 +1,24 @@
-**Coffee Shop Ordering System
+**Coffee Shop Ordering System**
 
-**Overview
+**Overview**
 
 This Java Swing-based Coffee Shop Ordering System simulates a simple coffee shop interface where users can view a menu, place orders, make payments, and leave reviews. The system provides an interactive GUI for customers to place orders, select coffee drinks, choose payment options, and rate their experience.
 
 This application is improvised from Java Low-Level Design (LLD), utilizing the Factory Design Pattern to manage the creation of different coffee orders based on user input.
 
-Features
+**Features**
 
-Menu Options: Users can select from a variety of coffee drinks such as Cappuccino, Latte, Matcha Latte, Cold Brew, and Hot Chocolate.
+**Menu Options**: Users can select from a variety of coffee drinks such as Cappuccino, Latte, Matcha Latte, Cold Brew, and Hot Chocolate.
 
-Order Placement: Users can place their orders with options for immediate delivery, delivery after 5 minutes, or at 30-minute intervals.
+**Order Placement**: Users can place their orders with options for immediate delivery, delivery after 5 minutes, or at 30-minute intervals.
 
-Order Status: Orders are assigned statuses like pending, preparing, or served.
+**Order Status**: Orders are assigned statuses like pending, preparing, or served.
 
-Payment Options: Users can choose from various payment methods, including UPI, Cash, Card, and Coupons.
+**Payment Options**: Users can choose from various payment methods, including UPI, Cash, Card, and Coupons.
 
-Customer Reviews: After receiving the order, users can rate their experience as Very Good, Good, Okish, Bad, or Worst.
+**Customer Reviews**: After receiving the order, users can rate their experience as Very Good, Good, Okish, Bad, or Worst.
 
-LLD Approach: Factory Pattern
+LLD Approach: **Factory Pattern**
 
 The application utilizes the Factory Pattern to handle the creation of coffee orders based on user selection. This pattern is part of the Low-Level Design (LLD) principles, ensuring that the system is flexible and scalable. By using this pattern, different types of coffee orders (e.g., Cappuccino, Latte) are created without tightly coupling the order logic with the application flow. This enables easy extension of new types of coffee or order processing features in the future.
 
@@ -37,11 +37,11 @@ IntelliJ IDEA (or any preferred IDE):
 IntelliJ IDEA is recommended for managing Java projects. You can download it from IntelliJ IDEA Downloads.
 Project Setup
 
-Step 1: Install IntelliJ IDEA and JDK
+**Step 1**: Install IntelliJ IDEA and JDK
 Download IntelliJ IDEA from the official website.
 Install JDK (JDK 11 or later). Ensure the JDK is set up correctly on your system.
 
-Step 2: Set Up Project in IntelliJ IDEA
+**Step 2**: Set Up Project in IntelliJ IDEA
 Open IntelliJ IDEA.
 
 Select Create New Project.
@@ -49,12 +49,12 @@ Choose Java as the project type and set the JDK version to 11 or higher.
 Name your project (e.g., CoffeeShopOrderingSystem) and choose the project location.
 Click Finish.
 
-Step 3: Create Java Class
+**Step 3**: Create Java Class
 In the src folder, right-click and select New > Java Class.
 Name the class CoffeeShopOrderApp.
 Add the Java Swing code for the application, as outlined in the main program.
 
-Step 4: Running the Application
+**Step 4**: Running the Application
 In IntelliJ IDEA, right-click on the CoffeeShopOrderApp.java file and select Run.
 The application will start, displaying a simple Swing GUI window with a label and a button to place an order.
 How to Use the Application
@@ -65,20 +65,20 @@ Click the Place Order button to simulate placing an order. This will display a c
 Additional features such as Menu Selection, Payment Options, and Customer Reviews can be added to extend the functionality.
 Possible Enhancements
 
-Menu Selection: Add a combo box or list to allow users to choose from different coffee drinks (e.g., Cappuccino, Latte, etc.).
+**Menu Selection**: Add a combo box or list to allow users to choose from different coffee drinks (e.g., Cappuccino, Latte, etc.).
 Order Status Management: Add functionality to change the status of orders (Pending, Preparing, Served).
 
-Payment Options: Implement a system where users can choose between different payment methods such as UPI, Cash, Card, and Coupons.
+**Payment Options**: Implement a system where users can choose between different payment methods such as UPI, Cash, Card, and Coupons.
 
-Customer Reviews: Add a mechanism for customers to rate their experience after the order is served.
+**Customer Reviews**: Add a mechanism for customers to rate their experience after the order is served.
 Running the Application
 
 To run the Coffee Shop Ordering System, simply:
 
-Open IntelliJ IDEA and import the project.
+**Open IntelliJ IDEA and import the project.
 Navigate to the CoffeeShopOrderApp.java file.
-Click the Run button in IntelliJ IDEA.
+Click the Run button in IntelliJ IDEA.**
 
 
-License
+**License**
 This project is open-source and available under the MIT License.
