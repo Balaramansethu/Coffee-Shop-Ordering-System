@@ -1,0 +1,29 @@
+{
+  "version": "1.0.2",
+  "integration_state_schema": 1,
+  "installed_integrations": [
+    "claude",
+    "codex",
+    "gemini"
+  ],
+  "integration_settings": {
+    "claude": {
+      "script": "py",
+      "invoke_separator": "-"
+    },
+    "codex": {
+      "script": "py",
+      "raw_options": "--skills",
+      "parsed_options": {
+        "skills": true
+      },
+      "invoke_separator": "-"
+    },
+    "gemini": {
+      "script": "py",
+      "invoke_separator": "."
+    }
+  },
+  "integration": "claude",
+  "default_integration": "claude"
+}
